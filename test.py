@@ -23,6 +23,7 @@ class ListName(SGMLParser):
 
 content = urllib2.urlopen('http://list.taobao.com/browse/cat-0.htm').read()
 print content
+print 'haha'
 # listname = ListName()
 # listname.feed(content)
 # for item in listname.name:
