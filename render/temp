@@ -1,0 +1,134 @@
+        elif edomain == 'tiantian':
+            if eclass == 'detail_mbx':
+                return 1
+            elif eclass == 'detail_pro clearfix':
+                return 2
+            elif elcass == 'detail_tab_con11 box-shadow':
+                return 3
+            else:
+                return 0
+        elif edomain == 'm6go':
+            if eclass == 'breadcrumb shareW':
+                return 1
+            elif eclass == 'shareW productInfo':
+                return 2
+            elif other == 'margin-top: 10px;':
+                return 3
+            else:
+                return 0
+        elif edomain == 'yhd':
+            if eclass == 'crumb clearfix':
+                return 1
+            elif eclass == 'fm_detail_one  clearfix':
+                return 2
+            elif eclass == 'desitem':
+                return 3
+            else:
+                return 0
+
+        elif edomain == 'vip':
+            if eclass == 'M-class':
+                return 1
+            elif eclass == 'FW-product clearfix':
+                return 2
+            elif eclass == 'M-detailCon':
+                return 3
+            else:
+                return 0
+        elif edomain == 'yaofang':
+            if name=='div' and eclass == 'title':
+                return 1
+            elif eclass == 'topCon':
+                return 2
+            elif return == 'divBox message':
+                return 3
+            else:
+                return 0
+        elif edomain == '5lux':
+            if eid == 'gdetail_con':
+                return 2
+            elif eclass == 'goods_detail tab_list':
+                return 3
+            else:
+                return 0
+        elif edomain == 'letao':
+            if eid == 'ltlinknav':
+                return 1
+            elif eid == 'buyinfo':
+                return 2
+            elif eid == 'shoeimages':
+                return 3
+            else:
+                return 0
+        elif edomain == 'zhen':
+            if eclass == 'location_show clr':
+                return 1
+            elif eclass == 'detail_main clearfix':
+                return 2
+            elif eclass == 'spxq':
+                return 3
+            else:
+                return 0
+
+        elif edomain == 'uniqlo':
+            if eclass == 'detail-bd clearfix':
+                return 2
+            elif eid == 'description':
+                return 3
+            else:
+                return 0
+        elif edomain == 'masamaso':
+            if eclass == 'info_nav':
+                return 1
+            elif eclass == 'goods_info_box clearfix':
+                return 2
+            elif eclass == 'sp_l_shadow':
+                return 3
+            else:
+                return 0
+        elif edomain == 'yixun':
+            if eclass == 'mod_crumb':
+                return 1
+            elif eclass == 'grid_c1 xcontent_row2':
+                return 2
+            elif eid == 'x_mod_tab_con intro-main':
+                return 3
+            else:
+                return 0
+        elif edomain == 'feiniu':
+            if eclass == 'topic-path':
+                return 1
+            elif eclass == 'product-detail-content':
+                return 2
+            elif eclass == 'desc-block desc-b1':
+                return 3
+            else:
+                return 0
+
+        elif edomain == 'gojiaju':
+            if eclass == 'line_positionleft':
+                return 1
+            elif eclass == 'jj_dir_top':
+                return 2
+            elif eclass == 'tabcon':
+                return 3
+            else:
+                return 0
+        elif edomain == 'hitao':
+            if eclass == 'bread-crumbs':
+                return 1
+            elif eclass == 'product-container clearfix':
+                return 2
+            elif eclass == 'product_detail':
+                return 3
+            else:
+                return 0
+        elif edomain == 'manzuo':
+            if eclass == 'small_nav':
+                return 1
+            elif eclass == 'index_hd_top blank border1':
+                return 2
+            elif eclass == 'con_lbmleft':
+                return 3
+            else:
+                return 0
